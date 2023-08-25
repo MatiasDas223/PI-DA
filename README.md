@@ -11,13 +11,14 @@ El análisis y la exploración de datos desempeñan un papel crucial en la obten
 
 ### Extracción
 
-Los datos se extraen de diversas fuentes confiables y populares en el ámbito de las criptomonedas, como CoinGecko, CoinMarketCap, y otras APIs relacionadas. Estas plataformas ofrecen acceso a una amplia variedad de datos que abarcan desde precios en tiempo real hasta históricos de transacciones y métricas específicas de cada criptomoneda.
+Los datos se extraen de una fuente confiable y popular en el ámbito de las criptomonedas, como CoinGecko. Esta plataforma ofrece acceso a una amplia variedad de datos que abarcan desde precios en tiempo real hasta históricos de transacciones y métricas específicas de cada criptomoneda.
 
 ### Transformación
 
 Una vez extraídos, los datos pasan por un proceso de limpieza y transformación. Esto implica:
 
-- Normalizar las diferentes estructuras de datos provenientes de múltiples fuentes.
+- La api nos brinda los datos en formato de diccionarios, para acceder a ellos se procede a desanidarlos.
+- Normalizacion, en especifico la transformacion de la fecha a un formato adecuado.
 - Identificar y gestionar posibles valores faltantes o inconsistentes.
 - Crear características derivadas que puedan ser relevantes para el análisis, como indicadores técnicos o métricas específicas relacionadas con la volatilidad.
 - Agrupar y segmentar los datos para facilitar su posterior análisis y visualización.
@@ -64,11 +65,7 @@ La evolución de las criptomonedas ha sido vertiginosa desde su creación, y su 
 
 #### Evolución a lo largo del tiempo
 
-Uno de los aspectos clave que se destacará es la evolución del valor de las criptomonedas a lo largo del tiempo. Se presentarán gráficos que muestren las subidas y bajadas, y cómo ciertos eventos en el mundo pueden haber influido en estas tendencias.
-
-#### Relación entre Criptomonedas
-
-A través de un correlograma, los usuarios podrán visualizar cómo diferentes criptomonedas se relacionan entre sí. ¿Existe una criptomoneda que, cuando sube, otra tiende a bajar? ¿O tal vez todas tienden a moverse juntas? Estas son las preguntas que buscamos responder.
+Uno de los aspectos clave que se destacará es la evolución del valor de las criptomonedas a lo largo del tiempo. Se presentarán gráficos que muestren las subidas y bajadas, de esta forma las partes interesadas podrian identificar tendencias en fechas especificas y podria relacionarlo con eventos globales.
 
 #### Volatilidad y Riesgo
 
